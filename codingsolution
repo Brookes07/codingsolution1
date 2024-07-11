@@ -1,0 +1,25 @@
+let appName : String = "Apple App"
+
+
+//VARIABLES
+var currentVersion : Double = 10.999
+var numberOfDownloads : Int = 1000
+var userRating : Double = 4.0
+
+//PRINTING CONTANTS
+
+//PRINTING VARIABLES
+print("Current Version \(currentVersion) ")
+print("Downloads: \(numberOfDownloads) ")
+print("userRating :\(userRating)")
+
+//UPDATING VARIABLES
+currentVersion += 0.1 
+numberOfDownloads += 1000
+userRating += 0.2
+//PRINTING UPDATED VARIBLES
+print("Current Version \(currentVersion) ")
+print("Downloads: \(numberOfDownloads) ")
+print("userRating\(userRating) ")
+
+
